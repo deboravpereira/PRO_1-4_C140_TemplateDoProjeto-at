@@ -138,8 +138,8 @@ $(document).ready(function(){
 
         //  chamada ajax
         $.ajax({
-            type : 'POST',
-            url : '/save',
+            type : '',
+            url : '',
             data : JSON.stringify(input_data),
             dataType : 'json',
             contentType : 'application/json',
@@ -164,15 +164,16 @@ $(document).ready(function(){
 })
 
 function displayBot() {
-    $('.chatbox__button').click(function () {
-        $('.chatbox__chat').toggle()
+    $('').click(function () {
+        $('').toggle()
     });
     //Inicie a conversa com o robô
     askBot()
 }
 
 function askBot() {
-    $("#send_button").click(function () {
+    #Quando o botão enviar for clicado
+    $("").click(function () {
 
         var user_bot_input_text = $("#bot_input_text").val()
 
